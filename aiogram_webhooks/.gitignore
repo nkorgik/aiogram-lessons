@@ -1,0 +1,34 @@
+# Python cache files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+*.virtualenv
+
+# Log files
+*.log
+
+# API tokens and secrets
+config.py
+secrets.json
+*.ini
+*.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.suo
+*.sublime*
+*.tm_properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
