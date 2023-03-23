@@ -21,7 +21,7 @@ I welcome contributions from the community!
 
 📜 License
 
-This project is not licensed or is unlicensed. This means that you are **authorized** to use, copy, or distribute the project, except as permitted by applicable law.
+This project is licensed under the terms of _the MIT license_. This means that you are **authorized** to use, copy, or distribute the project, except as permitted by applicable law.
 
 📧 Contact
 
