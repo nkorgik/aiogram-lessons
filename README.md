@@ -1,6 +1,6 @@
 💻👨‍💻📚
 
-# Welcome to My Lessons that are focused on learning Python Aiogram library
+# Welcome to My Lessons that are focused on learning Python Aiogram library And Python too
 
 📝 Description
 

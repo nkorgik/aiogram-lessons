@@ -75,3 +75,8 @@ While it is true that all coroutines run in the same thread and therefore share 
 For example, if two coroutines need to access a shared resource, they can use a Lock object to synchronize their access and avoid conflicts. Similarly, if one coroutine needs to notify another coroutine that an event has occurred, it can use an Event object to signal the other coroutine to wake up and respond.
 
 Overall, the asynchronous programming paradigm in Python is designed to provide a lightweight and efficient way to perform concurrent I/O operations, without the overhead and complexity of traditional multi-threaded programming.
+
+
+*Are there any disadventages of using Aioschedule*
+
+For simple use cases where performance and scalability are not a major concern, aioschedule can be a very useful and lightweight library for scheduling coroutines. It's important to carefully evaluate your requirements and the available libraries before deciding which one to use. 
