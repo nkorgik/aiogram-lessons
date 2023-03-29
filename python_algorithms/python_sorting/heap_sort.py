@@ -13,7 +13,7 @@ def heap_sort(arr):
 
     for i in range(n-1, 0, -1):
         arr[0], arr[i] = arr[i], arr[0]
-        heapify(arr, i, 0)
+        heapify(arr, i, 0) # check if its smaller than neighbors
 
 
 def heapify(arr, n, i): # this makes max heap
