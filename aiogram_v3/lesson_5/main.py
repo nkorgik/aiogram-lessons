@@ -4,6 +4,7 @@ from aiogram import Dispatcher
 
 from bot_instance import bot
 from bot.handlers.user_handlers import user_router
+from bot.config import BotConfig
 
 
 def register_routers(dp: Dispatcher) -> None:
@@ -15,7 +16,9 @@ def register_routers(dp: Dispatcher) -> None:
 async def main() -> None:
     """The main function which will execute our event loop and start polling."""
     
+    config = BotConfig(admin_ids=[123456, 6018428620], welcome_message="Welcome to our Python Bot!")
     dp = Dispatcher()
+    dp["config"] = config
 
     register_routers(dp)
     
